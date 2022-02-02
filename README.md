@@ -49,3 +49,6 @@ orderByProps(obj, ["name", "level"])
 Т.е. сначала идёт сортировка по тому, как указано в массиве сортировки, для тех ключей, для которых в массиве сортировки нет записи, сортировка идёт в алфавитном порядке.
 
 Используйте возможности `for-in` для перебора свойств объекта. Не забудьте написать unit-тесты, которые обеспечивают 100% покрытие функции, которую вы тестируете.
+
+
+[![Build status](https://ci.appveyor.com/api/projects/status/kn5rtqxfhwngeg4q?svg=true)](https://ci.appveyor.com/project/AlexKranov/ajs-object-reflection-proxy)
